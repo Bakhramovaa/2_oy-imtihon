@@ -1,2 +1,11 @@
 @import "base/reset";
 @import url("https://fonts.cdnfonts.com/css/svn-gilroy");
+@import "base/variables";
+@import "partials/header";
+@import "base/utils";
+
+@media (max-width: 834px) {
+  div.container {
+    display: none;
+  }
+}
