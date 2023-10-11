@@ -3,9 +3,12 @@
 @import "base/variables";
 @import "partials/header";
 @import "base/utils";
+@import "partials/responsive";
 
-@media (max-width: 834px) {
-  div.container {
-    display: none;
+@media (max-width: $tablet) {
+  nav.container {
+    ul {
+      display: none;
+    }
   }
 }

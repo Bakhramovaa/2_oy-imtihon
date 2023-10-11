@@ -1,0 +1,11 @@
+$desktop: 1440px;
+$tablet: 834px;
+$mobile: 414px;
+
+@media (max-width: $tablet) {
+  nav div {
+    ul {
+      display: none;
+    }
+  }
+}
