@@ -1,14 +1,13 @@
-@import "base/reset";
 @import url("https://fonts.cdnfonts.com/css/svn-gilroy");
+@import "base/reset";
 @import "base/variables";
-@import "partials/header";
 @import "base/utils";
+@import "partials/aside";
+@import "partials/banner";
+@import "partials/brands";
+@import "partials/cards-blog-3";
+@import "partials/footer";
+@import "partials/header";
+@import "partials/more";
+@import "partials/product";
 @import "partials/responsive";
-
-@media (max-width: $tablet) {
-  nav.container {
-    ul {
-      display: none;
-    }
-  }
-}

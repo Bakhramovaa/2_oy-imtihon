@@ -1,0 +1,20 @@
+.brands-content {
+  margin-left: 3%;
+
+  .brands-text {
+    color: $font-100;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+  }
+
+  .brands-heading {
+    color: $primary;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+}

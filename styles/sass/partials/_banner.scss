@@ -1,0 +1,89 @@
+.banner-box {
+  background: $primary;
+  border-radius: 20px;
+  // width: 1376px;
+  margin-left: 2%;
+  margin-right: 2%;
+  position: relative;
+
+  .banner-box-rectangle {
+    position: absolute;
+    z-index: 1;
+    right: -0.5%;
+    border-radius: 20px;
+  }
+
+  .banner-box-content {
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    right: 3%;
+
+    .banner-box-heading {
+      color: $primary;
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 68px; /* 130.769% */
+      text-transform: capitalize;
+    }
+
+    .banner-box-heading-4 {
+      color: $primary;
+      text-align: right;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 54px; /* 150% */
+      text-transform: capitalize;
+    }
+
+    .banner-box-text {
+      width: 394px;
+      color: $font-80;
+      text-align: right;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 18px;
+      padding-top: 0.5rem; /* 150% */
+    }
+  }
+
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 20%;
+
+    .btn-aside {
+      display: inline-flex;
+      padding: 6px 20px 6px 20px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      border-radius: 57px;
+      border: 1.5px solid $primary;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      color: $primary;
+    }
+
+    .btn-aside-blue {
+      display: flex;
+      width: 163px;
+      padding: 6px 12px 6px 12px;
+      justify-content: center;
+      align-items: center;
+      background: $primary;
+      border-radius: 57px;
+      background: $primary;
+      color: $font-0;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+    }
+  }
+}

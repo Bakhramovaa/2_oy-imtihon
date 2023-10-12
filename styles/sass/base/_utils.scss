@@ -2,19 +2,31 @@
   padding-block: 1rem;
 }
 .py-2 {
-  padding-block: 1rem;
+  padding-block: 2rem;
 }
+
 .py-3 {
-  padding-block: 1rem;
+  padding-block: 3rem;
 }
+
+.py-4 {
+  padding-block: 4rem;
+}
+
 .px-1 {
   padding-inline: 1rem;
 }
+
 .px-2 {
   padding-inline: 2rem;
 }
+
 .px-3 {
   padding-inline: 3rem;
+}
+
+.px-4 {
+  padding-inline: 4rem;
 }
 
 .d-f {
@@ -75,4 +87,16 @@
 
 .g-4 {
   gap: 4rem;
+}
+
+.g-8 {
+  gap: 310px;
+}
+
+.f-d-c {
+  flex-direction: column;
+}
+
+.f-d-r {
+  flex-direction: row;
 }

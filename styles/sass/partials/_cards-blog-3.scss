@@ -1,0 +1,41 @@
+.cards-blog-3 {
+  display: flex;
+  justify-content: space-between;
+  // flex-wrap: wrap !important
+  // gap: 1rem;
+}
+
+.card-blog-3 {
+  display: inline-flex;
+  padding: 8px 8px 0px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  // gap: 8px;
+  border-radius: 12px;
+  background: $font-0;
+  box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+
+  .more-card-heading {
+    color: $font-100;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .more-card-text {
+    color: $font-60;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+
+    .more-card-text-span {
+      color: $font-60;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 18px;
+    }
+  }
+}
